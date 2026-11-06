@@ -1,0 +1,16 @@
+# Talking video maker
+
+Turns a picture and a text file into a talking video. Runs free on GitHub.
+
+## Every time you want a video
+1. Open the `inputs` folder.
+2. Put your picture in it and name it `face.png` (or `face.jpg`). Replace the old one.
+3. Edit `script.txt` to say what you want the person to say.
+   (Or add your own recording named `voice.mp3` or `voice.wav` and it will use that instead.)
+4. Click the **Actions** tab, then **Make talking video**, then **Run workflow**, then the green **Run workflow** button.
+5. Wait for the green tick. Click the run, scroll to **Artifacts** at the bottom, and download `talking-video`.
+
+## Notes
+- Free GitHub computers have no graphics card, so it is slow. Test with 1 or 2 sentences first.
+- Use a clear, front-facing human face.
+- The first run is slowest because it downloads the AI models.
